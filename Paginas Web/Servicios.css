@@ -1,0 +1,247 @@
+header {
+    background-color: rgb(73, 83, 92);
+    margin: 0;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+#txt {
+    margin: 20px;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 44, 49);
+    border-color: rgb(48, 51, 63);
+    border-style: solid;
+    width: 99.55vw;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.button {
+    border: 2px;
+    border-color: rgb(48, 51, 63);
+    border-style: solid;
+    background-color: rgb(73, 83, 92);
+    height: 40px;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: -1px;
+}
+
+.button3 {
+    height: 40px;
+    width: auto;
+    align-items: center;
+    text-align: right;
+    align-content: center;
+    margin: 1px;
+}
+
+.pbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    align-content: center;
+    width: 50%;
+}
+.redes {
+    align-items: center;
+    text-align: right;
+    align-content: center;
+    width: 50%;
+    margin-right: 20px;
+}
+
+#button2 {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;   
+    margin-bottom: 25px; 
+}
+
+.servicio1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 50px;
+    background-color: rgb(38, 44, 49);
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 300px;
+    width: 50%;
+}
+.imagen1 {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(73, 83, 92);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 300px;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.servicio2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 50px;
+    background-color: rgb(38, 44, 49);
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 370px;
+    width: 50%;
+}
+.imagen2 {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(73, 83, 92);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 370px;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.imagen3 {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(73, 83, 92);
+    margin-bottom: 40px;
+    width: 100vw;
+    height: auto;
+}
+
+.perzsec {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.perz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    background-color: rgb(38, 44, 49);
+    color: white;
+    border-radius: 15px;
+    height: 300px;
+    width: 70vw;
+}
+
+p {
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#margin  {
+    margin-top: 30px;
+}
+
+#margin2  {
+    margin: 20px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: rgb(73, 83, 92);
+    color: white;
+    margin: 0;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.descripcion {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    width: 100vw;
+    height: calc(100vh-40px);
+}
+
+.contactos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100vw;
+    
+}
+
+.contacto1 {
+    background-color: rgb(73, 83, 92);
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.contact2 {
+    background-color: rgb(73, 83, 92);
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    margin-right: 50px;
+}
